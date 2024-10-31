@@ -1,0 +1,70 @@
+# Compiled object files, libraries, executables
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# CMake build directories and generated files
+/build/
+/cmake-build-debug/
+/cmake-build-release/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+/compile_commands.json
+/install_manifest.txt
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store     # macOS
+Thumbs.db     # Windows
+
+# Log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Dependency directories
+/deps/
+/vendor/
+
+# Test binaries
+/OrderMatchEngine_tests
+
+# Google Test and other external library archives
+*.zip
+*.tar
+*.gz
+
+# Code coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Generated documentation
+/docs/
+/*.html
+*.pdf
+*.docx
+
+# Backup files
+*.bak
+*.old
+
+# Python cache and virtual environments (if using Python scripts for tooling)
+__pycache__/
+*.py[cod]
+.env/
+.venv/
